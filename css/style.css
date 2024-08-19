@@ -1,0 +1,21 @@
+main > .container {
+    padding: 60px 15px 0;
+}
+#maTable {
+    width: 100%; /* Définir la largeur de la table à 100% */
+    border-collapse: collapse; /* Fusionner les bordures des cellules */
+}
+
+#maTable th, #maTable td {
+    border: 1px solid #ddd; /* Ajouter une bordure à chaque cellule */
+    padding: 8px; /* Ajouter de l'espace autour du contenu */
+}
+
+#maTable th {
+    background-color: #f2f2f2; /* Définir la couleur de fond des en-têtes de colonne */
+    text-align: left; /* Aligner le texte à gauche dans les en-têtes de colonne */
+}
+
+#maTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Définir une couleur de fond alternative pour les lignes impaires */
+}
